@@ -1,0 +1,56 @@
+body{
+
+    background-image: url('image\ resto.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.enfant {
+    background-color: #ffffffff;
+    justify-items: center;
+    padding: 20px;
+    
+}
+
+.parent {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+image s{
+    margin-left: 2px;
+  padding-left: 1Opx;
+}
+
+form{
+    margin-right: 10px;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    padding: 5px;
+    border-radius: 4px;
+    width: 100%;
+}
+h4{
+    margin-left: 40%;
+    margin-top: 10;
+}
+button[type="submit"]{
+    padding:10px;
+    background-color: black;
+    color: white; 
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+}

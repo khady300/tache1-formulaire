@@ -1,0 +1,50 @@
+body {
+    background-color: plum;
+}
+.container {
+   justify-items: center;
+   border-color: black;
+}
+.section {
+    display: flex;
+}
+form {
+    margin-left: 10px;
+    background-color: blue;
+    width: 50%;
+    margin: 0;
+}
+h2 {
+    font-style: normal;
+    font-family: sans-serif;
+    color:purple;
+    text-align: center;
+}
+input[type="text"],
+input[type="number"],
+textarea {
+    padding: 5px;
+    border-radius: 5px;
+    width: 70%;
+   margin-left: 20px;
+}
+select {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+label {
+    color: white;
+    margin-left: 20px;
+}
+
+button {
+    background: plum;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.section>img{
+width: 50%;
+}
